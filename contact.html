@@ -17,13 +17,13 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Portfolio</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
@@ -31,36 +31,33 @@
     </nav>
 
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div id="div1">
-                    <h1>About Me</h1>
-                    <hr noshade>
-                    <div id="div2">
-                        <img id="profile-picture" src="assets\images\cat.jpg" alt="picture goes here" />
-                        <p>Donec commodo leo vitae vulputate viverra. Maecenas imperdiet ultricies pellentesque. Donec
-                            congue id arcu vel hendrerit. Ut quis sollicitudin ipsum. Vestibulum pretium imperdiet
-                            justo, eu pretium velit eleifend quis. Nullam euismod lacinia ipsum quis facilisis.
-                            Suspendisse feugiat mauris nec neque auctor, eget tempor dolor porttitor. Curabitur a
-                            venenatis justo.
-                        </p>
-                        <p>
-                            Nam justo nibh, ullamcorper non eros eu, placerat tristique nisi. Sed eget
-                            dolor quis neque consectetur scelerisque non quis purus. In eget malesuada sem, id
-                            consequat leo. Nulla nec arcu consequat, mattis libero non, ultricies nibh. In et feugiat
-                            arcu. Morbi at sapien sit amet nunc bibendum vehicula vitae eu neque. In viverra sagittis
-                            urna, eget auctor lectus consectetur ut.
-                        </p>
-                        <p>
-                            Sed at metus vel sapien blandit mollis vel at sapien. Nunc nec ultrices sapien, non
-                            convallis mi. Nulla ac varius dui. Cras placerat feugiat consectetur. Aenean elementum ante
-                            nec ante placerat convallis. Proin placerat risus et dignissim mollis. Suspendisse aliquam
-                            tincidunt dignissim.
-                        </p>
-                    </div>
-                </div>
+        <form>
+
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Your Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Hancock">
             </div>
-        </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Subject</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <input type="submit">
+            </div>
+
+        </form>
     </div>
 
     <footer></footer>
