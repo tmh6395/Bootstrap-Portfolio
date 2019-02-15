@@ -6,9 +6,15 @@ html, body{
     background-color: #696969;
 }
 
-h1{
-    font-family: serif;
+h1, h3{
+    /* font-family: serif; */
+    font-family: 'Roboto Slab', serif;
     margin-top: 0.2em;
+}
+
+.container a{
+    margin-top: 1rem;
+    color: rgb(11, 79, 167);
 }
 
 #profile-picture{
@@ -26,13 +32,17 @@ hr{
     background-color: darkcyan;
 }
 
-.container{
-    /* width: 50%; */
+.container, .project-div{
     border: ridge 8px darkslategray;
-    padding: 1em;
-    margin-top: 6em;
-    margin-bottom: 6em;
+    padding: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
     background-color: lightslategray;
+}
+
+.project-div{
+    margin: 0;
+    text-align: center;
 }
 
 #submit-color{
