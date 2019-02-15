@@ -3,6 +3,13 @@ html, body{
 	background: url("../images/background-pic-2.png");
 }
 
+#portfolio-intro{
+	margin: auto;
+	margin-top: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+
 p{
 	margin: 1rem auto 0;
 }

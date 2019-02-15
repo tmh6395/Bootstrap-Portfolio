@@ -34,9 +34,9 @@ hr{
 
 .container, .project-div{
     border: ridge 8px darkslategray;
-    padding: 4rem;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    padding: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
     background-color: lightslategray;
 }
 
