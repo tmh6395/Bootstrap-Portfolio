@@ -1,0 +1,8 @@
+/* Background images supplied by: http://bg.siteorigin.com/ */
+html, body{
+	background: url("../images/background-pic-1.png");
+}
+
+#info-container{
+	text-align: center;
+}
