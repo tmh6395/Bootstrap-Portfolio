@@ -35,7 +35,7 @@ hr{
 .container, .project-div{
     border: ridge 8px darkslategray;
     padding: 3rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-bottom: 4rem;
     background-color: lightslategray;
 }
@@ -56,7 +56,8 @@ hr{
 
 .img{
     width: 100%;
-    margin-bottom: 1em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 

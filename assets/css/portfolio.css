@@ -4,11 +4,11 @@ html, body{
 }
 
 #portfolio-intro{
-	margin: auto;
-	margin-top: 2rem;
+	margin: 2rem auto;
 	text-align: center;
 	padding: 2rem;
 }
+
 
 p{
 	margin: 1rem auto 0;

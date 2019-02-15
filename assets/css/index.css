@@ -6,3 +6,7 @@ html, body{
 #info-container{
 	text-align: center;
 }
+
+#profile-picture{
+	min-width: 200px;
+}
